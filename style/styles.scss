@@ -1,0 +1,102 @@
+
+#display {
+    grid-area: display;
+    font-size: 15vh;
+    justify-self: flex-end;
+    align-items: center;
+    color: white;
+}
+
+#clear {
+    grid-area: clear;
+}
+
+#back {
+    grid-area: backspace;
+}
+
+#one {
+    grid-area: one;
+}
+
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three;
+}
+#four {
+    grid-area: four;
+}
+#five {
+    grid-area: five;
+}
+#six {
+    grid-area: six;
+}
+#seven {
+    grid-area: seven;
+}
+#eight {
+    grid-area: eight;
+}
+#nine {
+    grid-area: nine;
+}
+#zero {
+    grid-area: zero;
+}
+
+#decimal {
+    grid-area: decimal;
+}
+
+#plus {
+    grid-area: plus;
+}
+#minus {
+    grid-area: minus;
+}
+#multiply {
+    grid-area: multiply;
+}
+#division {
+    grid-area: division;
+}
+
+.button {
+    background-color: #181818;
+    color: #B3b3b3;
+    border-radius: 10px;
+    font-size: 4vmin;
+}
+
+.number {
+    background-color: #404040;
+    
+}
+
+.operation {
+    background-color: rgb(0, 153, 255);
+}
+
+#calc {
+    width: 100vw;
+    height: 100vh;
+    background: #121212;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "display display display display"
+    "clear clear backspace backspace"
+    "seven eight nine plus"
+    "four five six minus"
+    "one two three multiply"
+    "decimal zero equal division";
+    gap: 10px 15px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+

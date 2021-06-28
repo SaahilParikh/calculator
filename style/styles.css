@@ -1,0 +1,150 @@
+#display {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-area: display;
+  font-size: 15vh;
+  justify-self: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+#clear {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: clear;
+}
+
+#back {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: backspace;
+}
+
+#one {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+  grid-area: one;
+}
+
+#two {
+  -ms-grid-row: 5;
+  -ms-grid-column: 2;
+  grid-area: two;
+}
+
+#three {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  grid-area: three;
+}
+
+#four {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: four;
+}
+
+#five {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: five;
+}
+
+#six {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: six;
+}
+
+#seven {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: seven;
+}
+
+#eight {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: eight;
+}
+
+#nine {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: nine;
+}
+
+#zero {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+  grid-area: zero;
+}
+
+#decimal {
+  -ms-grid-row: 6;
+  -ms-grid-column: 1;
+  grid-area: decimal;
+}
+
+#plus {
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
+  grid-area: plus;
+}
+
+#minus {
+  -ms-grid-row: 4;
+  -ms-grid-column: 4;
+  grid-area: minus;
+}
+
+#multiply {
+  -ms-grid-row: 5;
+  -ms-grid-column: 4;
+  grid-area: multiply;
+}
+
+#division {
+  -ms-grid-row: 6;
+  -ms-grid-column: 4;
+  grid-area: division;
+}
+
+.button {
+  background-color: #181818;
+  color: #B3b3b3;
+  border-radius: 10px;
+  font-size: 4vmin;
+}
+
+.number {
+  background-color: #404040;
+}
+
+.operation {
+  background-color: #0099ff;
+}
+
+#calc {
+  width: 100vw;
+  height: 100vh;
+  background: #121212;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-areas: "display display display display" "clear clear backspace backspace" "seven eight nine plus" "four five six minus" "one two three multiply" "decimal zero equal division";
+  gap: 10px 15px;
+  justify-items: stretch;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+/*# sourceMappingURL=styles.css.map */
